@@ -25,6 +25,8 @@
   top: 0;
   border-right: solid 1px var(--side-nav-right-border-color);
   text-align: center;
+  transform: scale(1.2);
+  transform-origin: top left;
 }
 
 .side-nav {

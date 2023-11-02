@@ -9,7 +9,8 @@ layout: default
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
 <div class="multipurpose-container about-container">
-  <div class="row about-main">
+<!-- delete the head in about(mmz) -->
+  <!-- <div class="row about-main">
     <div class="col-md-3 about-img">
       <img src="{{ page.img }}" alt="">
     </div>
@@ -39,7 +40,7 @@ layout: default
         {% endif -%}
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="row about-divider">
     <hr>
   </div>

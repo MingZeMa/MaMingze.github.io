@@ -114,8 +114,13 @@
 /* category */
 .project-container .project-header > .meta-container > p.category {
   text-align: left;
-  width: 25%;
+  // chang the category in project(mmz)
+  width: 50%;
   color: var(--project-category-text-color);
+  // mmz change
+  // white-space: nowrap;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
 }
 
 /* date */

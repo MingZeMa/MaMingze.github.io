@@ -4,229 +4,201 @@
 ###########################################################
 page_data:
   main:
-    header: "Projects"
-    info: "Your Project page description."
-    text_color: "white"
+    header: "Main Experience"
+    info: "Personal experience profile."
+    text_color: "black"
     # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
+    # img: ":projects-heading.jpg"
     back_color: "lightblue"
 
   category:
-    - title: "Example"
-      type: id_example
+    - title: "Extracurricular Activities"
+      type: id_extracurricular
       color: "gray"
-    - title: "Picture"
-      type: id_picture
+    - title: "Volunteer Work"
+      type: id_volunteer
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
+    - title: "Internship"
+      type: id_internship
       color: "#2FD0ED"
 
   list:
     # example
-    - type: id_example
-      project_name: "Example Project"
-      project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
+    - type: id_extracurricular
+      project_name: "HERO Competitive Robot Team"
+      project_excerpt: "A team that designed their own robot and participated in RoboMaster."
+      img: ":HERO.png"
       img_title: "img title1"
-      date: "2021-03-13"
+      date: "2023-08-11"
       post: |
-        # Examples
+        <div align='center'>
+          <img src="/assets/img/projects/HERO-header.png">
+        </div>
+        <a name="OQ2Id"></a>
+        # About Our Team
+        <a name="vNuxh"></a>
+        ## Team Introduction
+        The HERO Competitive Robotics Team consists of four parts: mechanical, vision, electronic control, and race services, with members from nine colleges and seventeen majors across the university. In just five years since its establishment, the number of the team has expanded from the initial seven to more than 60 people. 
+        
+        <a name="cp8J1"></a>
+        
+        ## RoboMaster Introduction
+        RoboMaster University Championship is the main competition that our team participates in. The RoboMaster University Championship focuses on the comprehensive application and engineering practice abilities of the participants in science and engineering disciplines, fully integrating many robot-related technical disciplines such as "machine vision", "embedded system design", "mechanical control", "inertial navigation", "human-computer interaction". At the same time, the innovative combination of e-sports presentation and robotic competition makes the robot confrontation more intuitive and intense, attracting te attention of many technology enthusiasts and the public.
+        <br />
+        ![RM兵种简介.png](:RM-inroduction.png)
+        <a name="wkWBM"></a>
+        # My Team Position
 
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+        - <span style="font-size: 15px;">**2022 RoboMaster**: Algorithm Engineer in Vision Group</span>
+        - **2023 RoboMaster**: <span style="font-weight: bold;color: red; font-size: 15px;">Captain</span>, Algorithm Engineer in Vision Group
 
-        ### Headings (centered)
-        {:data-align="center"}
+        # Leadership Experience
+        **Personal Assignment During the Competition.**
 
-        # Heading 1
+        - Determined the technical indicators and designed scheme of robots. 
+        - Managed the research and development cycle of robots. 
+        - Developed a set of team-friendly project management processes. 
+        - Managed and assigned tasks to team members. 
+        - Organize and coordinate the design and development of robot vision related algorithms
+        - Organize technical training and improve technical inheritance. 
 
-        ## Heading 2
+        ---
 
-        ### Heading 3
+        **Some photos of me in the competition.**![RM拼图.jpg](:HERO1.jpg)
 
-        #### Heading 4
+        ---
 
-        ##### Heading 5
+        **Some Pictures of the robots in our team.**<br />![Fig.1. Balance Sta.png](:HERO2.png)
 
-        ###### Heading 6
+        ---
 
-        ***
+        **A group photo of my team and our robots.**<br />![DSCF4875.JPG](:HERO3.JPG)
 
-        ### Paragraphs
+        ---
 
-        #### Paragraph
+        **A competition video of our team.**
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iRb4r9aOYhU?si=kft2zwwTaUj9oQGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <a name="ZqmKE"></a>
+        # My Projects of RoboMaster
 
-        **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        Quoted text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockquote
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### Quote
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
-
+        1. **Armor  detection algorithm based on OpenCV and CNN**
+        2. **NanoDet-based Four-Point Armor Detection**
+        3. **Key-Points Detection of Power Rune for RoboMaster**
+        4. **HERO Deploy**
+        5. **HERO Label**
+# --------------------------------------------------------------------------------------------------------------------------
     # picture
-    - type: id_picture
-      project_name: "Example Project"
-      project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
+    - type: id_extracurricular
+      project_name: "718 Smart Car Lab"
+      project_excerpt: "Designed Intelligent Vehicles and participated in the National Student Intelligent Vehicle Competition."
+      img: ":718-logo.jpg"
       img_title: "img title2"
-      date: "2021-04-23"
+      date: "2021-07-15"
       post: |
-        # Title
-        This is project content.
+        <a name="FAIgS"></a>
+        # About Our Team
+        The lab is known as the cradle of scientific innovation in the school, as it systematically uses intelligent car competitions to develop first-year students' skills. This initiative, a talent pipeline for various advanced laboratories, draws an annual audience exceeding 1,000 individuals.
+        <a name="Va5Cv"></a>
+        # My Team Position
+        **Team Leader - 2020.12-2022.05**
+        <a name="dQ7Vb"></a>
+        # Leadership Experience
+        **Individual's role in the team.**
 
-        ![Image](:project2_thumb.jpg)
+        - Enhanced team cohesion and improved overall atmosphere during tenure
+        - Organized several intra-school as well as inter-school competitions
+        - Revamped team training system, transitioning from traditional oral methods to a more efficient online self-learning platform;
+        - Implemented regular assessment techniques, significantly reducing training-associated labor costs.
 
-    # quote
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
+        ---
+
+        **Pictures of me and my teammates at the game.**<br />
+        ![智慧物流比赛.png](:7181.png)
+
+        ---
+
+        **Some pictures of our team's smart cars.**
+        <br />![团队作品.png](:7182.png)
+
+        ---
+
+        **Some group photos from our races.**<br />
+        ![比赛合照.png](:7183.png)
+        <a name="i3zvB"></a>
+        # My Project
+
+        1. **Intelligent Logistics Trolley in the National University Intelligent Vehicle Competition**
+
+    # NTU
+    - type: id_extracurricular
+      project_name: "NTU Bussiness AI Lab"
+      project_excerpt: "Artificial Intelligence Internship Programme"
+      img: ":NTU.png"
+      img_title: "img title3"
+      date: "2023-03-12"
       post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Albert Einstein"
-      img: ":project2_thumb.jpg"
+        <a name="waZnZ"></a>
+        # Programme Introduction
+        This program is designed for students who are interested in the field of Artificial Intelligence (AI), including but not limited to machine learning, deep learning, neural networks, image processing and recognition, and other cutting-edge technologies in the field of AI. Relying on the NTU Bussiness AI Lab, we work in small groups with the lab director to conduct research on relevant topics, and complete research reports under the guidance of our mentors.
+        
+        <a name="UvTey"></a>
+        # Programme content
+
+        1. Deep Learning and Python
+        2. Image processing based on computer vision techniques
+        3. Neural Networks for Deep Learning
+        4. Image Recognition Based on Convolutional Neural Networks
+        5. Artificial Intelligence Essay Writing
+        
+        # My Project
+        1. **Brain tumor classification model of ResNet-50 network based on different data**
+
+        # My Certificate of the Programme
+        <img src="/assets/img/projects/NTU-award.png" style="width:75%;">
+
+        # Grade of the Programme
+        <img src="/assets/img/projects/NTU-grade.png" style="width:75%;">
+
+        # Recommendation Letter
+        <img src="/assets/img/projects/NTU-re.png" style="width:75%;">
+        
+
+    # RMUL
+    - type: id_volunteer
+      project_name: "Volunter in RMUL2021"
+      project_excerpt: "Volunteer Experience at the Race"
+      img: ":RM-logo.png"
       img_title: "img title4"
-      date: "2021-06-08"
+      date: "2021-04-09"
       post: |
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mae West"
-      img: ":project1_thumb.jpg"
-      img_title: "img title5"
-      date: "2021-08-20"
-      post: |
-        You only live once, but if you do it right, once is enough.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mahatma Gandhi "
-      img: ":project2_thumb.jpg"
-      img_title: "img title6"
-      date: "2021-12-20"
-      post: |
-        Be the change that you wish to see in the world.
+        # Introduction of RMUL
+        The RoboMaster University League (RMUL), which is sponsored by local academic institutions and universities, aims to promote the exchange of robotics technology between regional universities, foster a supportive academic environment, and contribute to regional technological innovation and development. Participating teams can also advance to the RoboMaster University Championship through the Scoring and Ranking System.
+
+
+        # My Volunter Work in RMUL
+        My position is a technical support volunteer in the operating room. During the competition, both players need to manipulate the robots in the operation room, and they need to use computers, keyboards, headsets, graphic transmissions, etc. I need to guide the operators to use these items during the competition, and help them when they encounter problems. I need to guide the operators to use these items during the competition, and provide help when the operators encounter problems during the competition to ensure that the competition can be carried out normally and stably.
+
+        # Outstanding Volunteer Certificate 
+        <img src="/assets/img/projects/21-volunteer.JPG" style="width:50%;">
+
+        # Picture of All Volunteers
+        <img src="/assets/img/projects/RMUL.JPG" style="width:100%;">
+
+
+# # --------------------------------------------------------------------------------
+#     - type: id_quote
+#       project_name: "Example Project"
+#       project_excerpt: "Mae West"
+#       img: ":project1_thumb.jpg"
+#       img_title: "img title5"
+#       date: "2021-08-20"
+#       post: |
+#         You only live once, but if you do it right, once is enough.
+#     - type: id_quote
+#       project_name: "Example Project"
+#       project_excerpt: "Mahatma Gandhi "
+#       img: ":project2_thumb.jpg"
+#       img_title: "img title6"
+#       date: "2021-12-20"
+#       post: |
+#         Be the change that you wish to see in the world.

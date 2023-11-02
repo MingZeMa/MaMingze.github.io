@@ -25,7 +25,7 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt, fr]
+language_switch_lang_list: [en]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -49,7 +49,7 @@ language_switch_hover_effect: "hover-effect"
 # this enables top nav language switch
 language_switch_top_nav: false
 
-# replace text with owner[language].brand
+# replace text with owner[language].brandhealthiness
 brand_replace: "$site_brand"
 
 # replace text with data.lang[language].constants.greeting
@@ -118,7 +118,7 @@ image_lazy_loader_posts: true
 #                Color scheme switch
 ###########################################################
 # this adds dark color schemes (set to false to disable this feature. This disables all dark styles)
-color_scheme_dark: true
+color_scheme_dark: false
 
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
@@ -184,11 +184,14 @@ side_nav_close_limit: 767px
 # side nav and top nav buttons
 # button order is linked to key(layout name)
 # keys need to match with "_layouts"
+# change tab  in nav(mmz)
 side_and_top_nav_buttons:
   - home:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
+  - experience:
+    icon: "fa fa-archive"
   - archives:
     icon: "fa fa-archive"
   - projects:
@@ -197,6 +200,8 @@ side_and_top_nav_buttons:
     icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
+  - certificate:
+    icon: "fa fa-link"
 
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
@@ -325,7 +330,7 @@ google:
 # make sure google_analytics_id is set in _data/owner/[language].yml
 # make sure your environment does not match with google.analytics.ignore
 cookie_consent:
-  enable: true
+  enable: false
   # if this is true, the consent box will be hidden even if the user does not change the switch position.
   hide_consent_bar_with_save_button: true
   gtag_default_config:

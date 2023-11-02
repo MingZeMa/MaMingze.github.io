@@ -15,11 +15,12 @@
   --top-nav-height-def: 52px;
   /* min:5px, nominal:3%, max:25px */
   --text-spacing: clamp(5px, calc((100vw / 100) * 3 ), 25px);
-  /* min:5px, nominal:3.5%, max:40px */
-  --main-container-margin: clamp(5px, calc((100vw / 100) * 3.5 ), 40px);
+  /* min:5px, nominal:3.5%, max:40px (5, 3.5, 40, mmz)*/  
+  --main-container-margin: clamp(6px, calc((100vw / 100) * 3.5 * 1.2 ), 50px);
   /* any page bottom padding */
   --main-container-padding-bottom: calc(var(--main-container-margin) / 2);
-  --main-container-width-limit: 800px;
+  /* change the width(mmz) */
+  --main-container-width-limit: 900px;
   --main-container-max-width: calc(var(--main-container-width-limit) + (var(--main-container-margin) * 2));
   /* space between containers */
   --multipurpose-container-margin-bottom: 20px;

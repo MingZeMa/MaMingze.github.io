@@ -15,6 +15,9 @@
   padding-right: var(--main-container-margin);
   padding-top: var(--main-container-margin);
   padding-bottom: var(--main-container-padding-bottom);
+  // contain size * 1.2(mmz)
+  transform: scale(1.2);
+  transform-origin: top left;
 }
 
 .multipurpose-container {
