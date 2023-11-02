@@ -81,11 +81,11 @@ page_data:
         <a name="ZqmKE"></a>
         # My Projects of RoboMaster
 
-        1. **Armor  detection algorithm based on OpenCV and CNN**
-        2. **NanoDet-based Four-Point Armor Detection**
-        3. **Key-Points Detection of Power Rune for RoboMaster**
-        4. **HERO Deploy**
-        5. **HERO Label**
+        1. **<a href="https://mingzema.github.io/posts/2023-10-26-ArmorClassify-en">Armor detection algorithm based on OpenCV and CNN</a>**
+        2. **<a href="https://mingzema.github.io/posts/2023-10-26-NanoDet-en">NanoDet-based Four-Point Armor Detection</a>**
+        3. **<a href="https://mingzema.github.io/posts/2023-10-26-Rune-Detection-en">Key-Points Detection of Power Rune for RoboMaster</a>**
+        4. **<a href="https://mingzema.github.io/posts/2023-10-26-HERO-Deploy-en">HERO Deploy</a>**
+        5. **<a href="https://mingzema.github.io/posts/2023-10-26-HERO%20Label-en">HERO Label</a>**
 # --------------------------------------------------------------------------------------------------------------------------
     # picture
     - type: id_extracurricular
@@ -127,7 +127,7 @@ page_data:
         <a name="i3zvB"></a>
         # My Project
 
-        1. **Intelligent Logistics Trolley in the National University Intelligent Vehicle Competition**
+        1. **<a href="https://mingzema.github.io/posts/2023-10-26-Lane-Line-Tracking-en">Intelligent Logistics Trolley in the National University Intelligent Vehicle Competition</a>**
 
     # NTU
     - type: id_extracurricular
@@ -151,7 +151,7 @@ page_data:
         5. Artificial Intelligence Essay Writing
         
         # My Project
-        1. **Brain tumor classification model of ResNet-50 network based on different data**
+        1. **<a href="https://mingzema.github.io/posts/2023-10-26-Tumor-Classify-en">Brain tumor classification model of ResNet-50 network based on different data</a>**
 
         # My Certificate of the Programme
         <img src="/assets/img/projects/NTU-award.png" style="width:75%;">

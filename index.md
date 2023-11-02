@@ -104,10 +104,10 @@ img: ":2023.jpeg"
 <div style="background-color: #f2f2f2; padding: 10px; border-radius: 5px; width: 410px; height: 180px; display: inline-block;" markdown="1">
 
 ### ⬇️ Know more about me?
-- <font size=4><a href="https://www.yuque.com/thunder-itugs">My Projects</a>.</font>
-- <font size=4><a href="https://www.yuque.com/thunder-itugs">My Main Experience</a>.</font>
-- <font size=4><a href="https://www.yuque.com/thunder-itugs">My Honors and Awards</a>.</font>
-- <font size=4><a href="https://www.yuque.com/thunder-itugs">My CV</a>.</font>
+- <font size=4><a href="https://mingzema.github.io/tabs/blog/">My Projects</a>.</font>
+- <font size=4><a href="https://mingzema.github.io/tabs/projects.html">My Main Experience</a>.</font>
+- <font size=4><a href="https://mingzema.github.io/tabs/about.html">My Honors and Awards</a>.</font>
+- <font size=4><a href="https://mingzema.github.io/tabs/certificate.html">My CV</a>.</font>
 
 </div>
 </td>
