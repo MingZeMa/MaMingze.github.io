@@ -47,7 +47,7 @@ img: ":about.jpg"
 <span>• 1st Place, RoboMaster University Championship 2023 Robot Combat Award</span>
 <span> 08.2023 </span>
 </div>
-<img src="/assets/img/certificate/2023-standard.jpg" style="width:50%;">
+<img src="/assets/img/certificate/23-Standard.jpg" style="width:50%;">
 
 ---
 
@@ -55,7 +55,7 @@ img: ":about.jpg"
 <span>• 2nd Place, RoboMaster University Championship 2023 National Competition</span>
 <span> 08.2023 </span>
 </div>
-<img src="/assets/img/certificate/2023-na.jpg" style="width:50%;">
+<img src="/assets/img/certificate/RMUC2023-na.png" style="width:50%;">
 
 ---
 
@@ -63,7 +63,7 @@ img: ":about.jpg"
 <span>• 1st Place, RoboMaster University Championship 2023 Regional Competition</span>
 <span> 06.2023 </span>
 </div>
-<img src="/assets/img/certificate/2023-re.jpg" style="width:50%;">
+<img src="/assets/img/certificate/RMUC2023-re.png" style="width:50%;">
 
 ---
 
